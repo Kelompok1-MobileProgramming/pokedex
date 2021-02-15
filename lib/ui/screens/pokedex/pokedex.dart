@@ -19,7 +19,7 @@ import 'package:pokedex/ui/widgets/poke_container.dart';
 
 part 'package:pokedex/ui/screens/pokedex/widgets/fab_menu.dart';
 part 'package:pokedex/ui/screens/pokedex/widgets/fab_overlay_background.dart';
-part 'package:pokedex/ui/screens/pokedex/widgets/header_app_bar.dart';
+//part 'package:pokedex/ui/screens/pokedex/widgets/header_app_bar.dart';
 part 'package:pokedex/ui/screens/pokedex/widgets/pokemon_grid.dart';
 
 class PokedexScreen extends StatefulWidget {
@@ -159,7 +159,7 @@ class _PokedexScreenState extends State<PokedexScreen> with SingleTickerProvider
               mainAxisSize: MainAxisSize.max,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
-                _HeaderAppBar(top: appBarTop),
+                //_HeaderAppBar(top: appBarTop),
                 _buildTitle(),
                 _buildPokemonGrid(),
               ],

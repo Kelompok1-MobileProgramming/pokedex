@@ -1,4 +1,4 @@
-part of '../pokedex.dart';
+/*part of '../pokedex.dart';
 
 class _HeaderAppBar extends StatelessWidget {
   const _HeaderAppBar({
@@ -52,3 +52,4 @@ class _HeaderAppBar extends StatelessWidget {
     );
   }
 }
+*/

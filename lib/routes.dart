@@ -10,7 +10,7 @@ enum Routes { splash, home, pokedex, pokemonInfo, typeEffects }
 
 class _Paths {
   static const String splash = '/';
-  static const String home = '/home';
+  static const String home = '/home/pokedex';
   static const String pokedex = '/home/pokedex';
   static const String pokemonInfo = '/home/pokemon';
   static const String typeEffectsScreen = '/home/type';
